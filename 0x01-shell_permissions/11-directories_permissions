@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R 777
+find ./ -type f -exec chmod 664 {} + -o -type d -exec chmod 775 {} +
