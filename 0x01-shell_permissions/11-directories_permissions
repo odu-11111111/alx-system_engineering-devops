@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -type f -exec chmod 664 {} + -o -type d -exec chmod 777777777
+chmod 777 $(find . -type d)
